@@ -26,5 +26,9 @@ app.get('/user', (req, res) => {
     res.json;
 });
 
+app.get('/', (req, res) => {
+    res.send(<h1>Backend is deployed.</h1>);
+});
+
 // PORT = 3000;
 app.listen(3000, () => console.log("Server is running on 3000."));
