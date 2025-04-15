@@ -27,7 +27,7 @@ app.get('/user', (req, res) => {
 });
 
 app.get('/', (req, res) => {
-    res.send(<h1>Backend is deployed.</h1>);
+    res.send("Backend is deployed.");
 });
 
 // PORT = 3000;
